@@ -1,8 +1,8 @@
 {
-	"hostName" : "network" ,
-	"publicNetworkIp" : "192.168.10.20",
-	"manageNetworkIp" : "10.0.0.21",
-	"dataNetworkIp" : "10.0.1.21",
+	"hostName" : "gateway" ,
+	"publicNetworkIp" : "192.168.10.50",
+	"manageNetworkIp" : "10.0.0.51",
+	"dataNetworkIp" : "10.0.1.51",
 	"tunnelType" : "vxlan",
 	"nodeType" : "compute"
 }

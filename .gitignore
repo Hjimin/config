@@ -1,3 +1,5 @@
 target/*
+src/*
+pom.xml
 *.iml
 *.idea
