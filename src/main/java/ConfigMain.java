@@ -23,6 +23,7 @@ public class ConfigMain {
             postRequest.addHeader("accept", "application/json");
             JSONObject jsonObject = openstackConfig.readConfig();
             StringEntity input = new StringEntity(jsonObject.toJSONString());
+            System.out.println(jsonObject.toJSONString());
             input.setContentType("application/json");
             postRequest.setEntity(input);
 
