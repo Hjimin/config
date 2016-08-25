@@ -18,7 +18,7 @@ public class ConfigMain {
         OpenstackConfig openstackConfig = new OpenstackConfig();
         try {
             HttpClient httpClient = HttpClientBuilder.create().build();
-            HttpPost postRequest = new HttpPost("http://192.168.20.5:8181/vnetmanager/openstacknode");
+            HttpPost postRequest = new HttpPost("http://192.168.20.5:8181/iris4sdn/v1/csdncm/openstacknode");
 
             postRequest.addHeader("accept", "application/json");
             JSONObject jsonObject = openstackConfig.readConfig();
